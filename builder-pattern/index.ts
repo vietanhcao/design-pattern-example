@@ -1,3 +1,4 @@
+/**Builder Pattern phân tách một đối tượng phức tạp thành nhiều phần tương đối đơn giản, sau đó tạo chúng riêng biệt theo các nhu cầu khác nhau, và cuối cùng là xây dựng đối tượng phức tạp.  */
 class Car {
 	engine: string;
 	wheel: string;

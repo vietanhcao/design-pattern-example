@@ -1,4 +1,5 @@
 // facade pattern
+/**Facade là một đối tượng và đối tượng này cung cấp một interface đơn giản để che giấu đi các xử lý phức tạp bên trong nó. */
 class Bed {
 	makeTheBed() {
 		console.log("The Bed is ready");
@@ -108,7 +109,3 @@ api
 	.get("https://api.github.com/users/octocat")
 	.then((data) => console.log(data))
 	.catch((err) => console.log(err));
-
-
-
-
