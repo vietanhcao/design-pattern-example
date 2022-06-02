@@ -34,15 +34,15 @@ class Dishwasher {
 }
 
 class HouseCleaningFacade {
-	private readonly bed: Bed;
-	private readonly trashCan: TrashCan;
-	private readonly airFreshener: AirFreshener;
-	private readonly dishwasher: Dishwasher;
+	// private readonly bed: Bed;
+	// private readonly trashCan: TrashCan;
+	// private readonly airFreshener: AirFreshener;
+	// private readonly dishwasher: Dishwasher;
 	constructor(
-		bed: Bed,
-		trashCan: TrashCan,
-		airFreshener: AirFreshener,
-		dishwasher: Dishwasher
+		private readonly bed: Bed,
+		private readonly trashCan: TrashCan,
+		private readonly airFreshener: AirFreshener,
+		private readonly dishwasher: Dishwasher
 	) {
 		this.bed = bed;
 		this.trashCan = trashCan;
